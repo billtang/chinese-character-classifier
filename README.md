@@ -16,7 +16,7 @@ python3 dict.py   # creates a dictionary of the characters in the training datas
 
 python3 image.py  # reads the images through PyCasia and creates the training and testing tensors
 
-python3 main.py   # builds the model and runs the training/testing
+python3 main.py   # builds the model
 ```
 
 The best model is saved to model.pt, which can be reloaded for future use using Pytorch.
