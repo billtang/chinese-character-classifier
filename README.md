@@ -27,6 +27,6 @@ Here, I implement a two-layer CNN with two max-pooling layers and one fully conn
 
 ## Results
 
-Overall, the classifier achieved a best accuracy of 87.24% on the training dataset and 75.62% on the validation dataset. Interestingly, the percentages were still climbing upwards, so more epochs are needed to determine the true best accuracies.
+Overall, the classifier achieved a best accuracy of 87.24% on the training dataset and 75.62% on the validation dataset. By Epoch 25, the percentages were still climbing upwards, so a little more testing is needed to determine the true best accuracies.
 
 ![results](https://raw.githubusercontent.com/williamhu99/chinese-character-classifier/master/Images/results.png)
