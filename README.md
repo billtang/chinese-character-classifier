@@ -23,7 +23,7 @@ The best model is saved to model.pt, which can be reloaded for future use using 
 
 ## Model Framework
 
-Here, I implement a two-layer CNN with two max-pooling layers and one fully connected layer. In the future, I may change the a few of the parameters, but so far, this setup has achieved the highest validation accuracy.
+Here, I implement a two-layer CNN with two max-pooling layers and one fully connected layer. In the future, I may change a few of the parameters, but so far, this setup has achieved the highest validation accuracy.
 
 ## Results
 
