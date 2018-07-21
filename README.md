@@ -13,11 +13,9 @@ In the end, the training dataset was composed of 897760 images with 3755 classes
 To run the CNN, type in the following commands (in order):
 ```
 python3 dict.py   # creates a dictionary of the characters in the training dataset
-```
-```
+
 python3 image.py  # reads the images through PyCasia and creates the training and testing tensors
-```
-```
+
 python3 main.py   # builds the model and runs the training/testing
 ```
 
