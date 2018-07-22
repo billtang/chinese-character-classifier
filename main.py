@@ -139,6 +139,7 @@ for epoch in range(1, num_epochs + 1):
 
         acc = num_correct / num_total
         print('Testing Accuracy: {:.4f}'.format(acc) + '\n')
+        
         # Save the model with the highest validation accuracy
         if acc > best_accuracy:
             best_accuracy = acc
