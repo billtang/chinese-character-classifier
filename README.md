@@ -1,6 +1,6 @@
 # Chinese Character Classification through CNNs
 
-Given their ability to characterize different types of images, convolutional neural networks (CNNs) have been used extensively in the problem of handwritten character classification. Hnadwriting differs from person to person, so a computer can often struggle to match a image with a corresponding character. Interested in learning about CNNs myself, I decided to give this problem a try by training and testing on Chinese characters from the CASIA dataset (http://www.nlpr.ia.ac.cn/databases/handwriting/Home.html).
+Convolutional neural networks (CNNs) have been used extensively in the problem of handwritten character classification. Since handwriting differs from person to person, computers can often struggle to match an image with the corresponding character. Interested in learning about CNNs myself, I decided to give this problem a try by training and testing on Chinese characters from the CASIA dataset (http://www.nlpr.ia.ac.cn/databases/handwriting/Home.html).
 
 ## Data Preprocessing
 
@@ -19,7 +19,7 @@ python3 image.py  # reads the images through PyCasia and creates the training an
 python3 main.py   # builds the model
 ```
 
-The best model is saved to model.pt, which can be reloaded for future use using Pytorch.
+The best model is saved to a file called model.pt, which can be reloaded using Pytorch for future use.
 
 ## Model Framework
 
